@@ -5,8 +5,56 @@
         <title>Visualizador de 3D model</title>
     </head>
     <body>
-        <h1> Bienvenidos a la web de Visualizador de 3D model</h1>
-        <h2> Prueba </h2>
+        <header>
+            <hgroup>
+                <!-- esto sirve para comunicar y dar importancia
+                     a los h que estan en el grupo!-->
+
+             <h1> Bienvenidos a la web de Visualizador </h1>
+             <h2> Prueba 2 </h2>
+             <nav>
+                 <ul> <!-- forma el menu de navegación como un lista!-->
+                     <li>
+                         <a href="index.html">Inicio</a>
+                     </li><!-- un lista se forma de elemento de 
+                        lista y dentro un enlance!-->
+                     <li>
+                         <a target="_blank" href="http://udemy.com">Otra pestaña</a>
+                         <!-- enlace se abre en un pestaña nueva!-->
+                     </li>
+                     <li><a target="_blank" href="#ejemplo">mover hacia objetivo</a>
+                     </li>
+                     <li><a href="prueba/index.html">otra pestaña</a> <!-- para selecionar 
+                        un enlance desde un carpeta que este dentro del directorio.
+                        
+                        si queremos selectionar un carpeta fuera del directio usamos 
+                        ../prueba/index.html !-->
+                     </li>
+                 </ul>
+             </nav>
+             <nav>
+                 <ol>
+                        <li>Opcion1</li>
+                        <li>Opcion2</li>
+                        <li>Opcion3</li>
+                        <li>Opcion4</li> 
+                 </ol>
+             </nav>
+            </hgroup>
+        </header>
+        <a href="http://udemy.com"><!-- Para crear un enlance!-->
+            Pincha aqui para ir a udemy
+        </a>
+        <h3> Prueba </h3>
+        <h4> Prueba </h4>
         <p2> Esta es la página donde podrás ver nuestro trabajo</p2>
+       
+        <!--el objetivo es selecionar una pestaña y que la pagina 
+            se deslice hasta esa pestaña. Paginas de moda !-->
+           
+        <section id="ejemplo">
+            <p>Objetivo</p>
+
+        </section>
     </body>
 </html>
